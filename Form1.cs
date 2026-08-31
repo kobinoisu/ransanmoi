@@ -32,12 +32,14 @@ namespace ran_san_moi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            newscroor f = new newscroor();
+            this.Hide();
+            f.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
     }
 }
